@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const cors = require('cors')
 const Router = require('./routers/index')
-const PORT = 5000 || process.env.PORT
+const port = process.env.PORT || 5000
 const db = require('./config/db/connect')
 
 // Middleware
@@ -17,4 +17,4 @@ Router(app)
 db.connect()
 
 
-app.listen(PORT, () => console.log(`App listening on ${PORT}`))
+app.listen(port, () => console.log(`App listening on ${port}`))
