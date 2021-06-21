@@ -36,7 +36,7 @@ class MoviesController {
                 video
             }
 
-            const MovieCodition = { _id: req.params.id, user: req.userId }
+            const MovieCodition = { _id: req.params.id }
 
             updateMovie = await Movies.findOneAndUpdate(MovieCodition, updateMovie, { new: true })
 
@@ -52,7 +52,7 @@ class MoviesController {
     async destroy (req, res) {
 
         try {
-            const moviesCondition = { _id: req.params.id, user: req.userId }
+            const moviesCondition = { _id: req.params.id }
 
             const deleteMovie = await Movies.findOneAndDelete(moviesCondition)
 

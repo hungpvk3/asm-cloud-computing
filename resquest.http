@@ -2,7 +2,7 @@ POST http://localhost:5000/api/auth/register
 Content-Type: application/json
 
 {
-    "username": "kevin3",
+    "username": "kevin",
     "password": "123"
 }
 
@@ -12,7 +12,7 @@ POST http://localhost:5000/api/auth/login
 Content-Type: application/json
 
 {
-    "username": "kevin",
+    "username": "kevin3",
     "password": "123"
 }
 
@@ -29,10 +29,10 @@ Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MGM0YmY1NDU0YjQyYjI4ZDQ3ODk2M2IiLCJpYXQiOjE2MjM4MTE4MTF9.wQdSF4i5bwcxWx07kICbV7jNu29ysi2rsC_hjZt9GQM
 
 {
-    "name": "osdsdk",
-    "des": "loldsdds",
-    "image": "osdsjosd",
-    "video": "dajncn"
+    "name": "Những Cô Gái Cute Cực Xinh Và Dễ Thương Triệu View Trên Tik Tok Việt Nam p19",
+    "des": "Những Cô Gái Cute Cực Xinh Và Dễ Thương Triệu View Trên Tik Tok Việt Nam p19",
+    "image": "0Dot9XLNkRc",
+    "video": "0Dot9XLNkRc"
 }
 
 ###
@@ -42,7 +42,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MGM0Y
 
 ###
 
-PUT http://localhost:5000/api/movies/update/60c971b7015d2136b0bb746f
+PUT http://localhost:5000/api/movies/update/60c9b84b673eb62ddc57ce71
 Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MGM0YmY1NDU0YjQyYjI4ZDQ3ODk2M2IiLCJpYXQiOjE2MjM4MTE4MTF9.wQdSF4i5bwcxWx07kICbV7jNu29ysi2rsC_hjZt9GQM
 
@@ -55,5 +55,5 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MGM0Y
 
 ###
 
-DELETE http://localhost:5000/api/movies/destroy/60c9745149609e0744599d2c
+DELETE http://localhost:5000/api/movies/destroy/60caa35c2a99a01c8831dfba
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MGM0YmY1NDU0YjQyYjI4ZDQ3ODk2M2IiLCJpYXQiOjE2MjM4MTE4MTF9.wQdSF4i5bwcxWx07kICbV7jNu29ysi2rsC_hjZt9GQM
